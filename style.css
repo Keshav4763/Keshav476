@@ -66,376 +66,439 @@ body{
 .justify-center{ justify-content: center;}
 .justify-space-bet{ justify-content: space-between;}
 
+/*Leout*/
 
-/*leyout*/
+/*header*/
 
 header{
-     background-color: #0e0a17;
-     position: sticky;
-     top: 0;
-     height: 235px;
+     background: #05254d;
+     color: #fff;
+     position: sticky; 
+     top: 0; 
 }
-.logo{
-     background-color: #fff;
-     color: #242424;
+header .col-1{
      text-align: center;
-     border-radius: 84px;
-     margin-top: 39px;
-     height: 150px;
 }
-.logo h1{
-   font-size: 29px;
+header .col-1 ul{
+     margin: 5px;
 }
-.logo h3{
+header .col-1 li{
+     margin: 5px;
+}
+header .col-1 i{
+     color: #fff;
+     font-size: 30px;
+     margin-top: 10px;
+     padding: 5px;
+}
+header .col-10{
+     background-color: #ed1c24;
+     margin-left: 0px;
+}
+header nav img{
+     padding-left: 13px;
+     margin-bottom: 10px;
+     
+}
+header nav .images{
+     background-color: #ed1c24;
+     border-radius: 33px;
+     margin-left: -7px;
+}
+header nav .col-2 li{
+     margin-right: 12px;
+}
+header nav ul{
+     display: flex;
+     margin: 20px 0px 4px 140px;
+}
+header nav ul li{
+     margin: 5px 9px -40px 9px;
+     
+}
+header nav ul li a{
+     color: #fff;
+     font-size: 15px;
+     padding: 5px;
+}
 
-     padding-top: 40px;
-     margin-bottom: -23px;
-     font-size: 22px;
+/*ware1*/
+
+.ware1{
+     width: 100%;
+     height: 500px;
+     background-size: cover
 }
-.logo h2 {
-    margin-top: -23px;
-    font-size: 19px;
-}
-.navbar ul li{
-     float: left;
-}
-.navbar ul li a{
+.ware1 .h1button h1{
      color: #fff;
-     font-size: 32px;
-     border-right: 3px solid;
-     text-align: center;
-     padding: 5px 5px 5px 3px;
+     font-size: 65px;
+     margin: 110px 0px 0px 135px;
 }
-.navbar {
-     display:flex;
-     margin: 99px 0px 0px 311px ;
-}
-.bun{
-     background-color: #910115;
+.ware1 .h1button .bun1{
+     width: 125px;
+     height: 42px;
+     background-color: #ed1c24;
      color: #fff;
-     border-radius: 10px;
      border: none;
-     font-size: 24px;
-     width: 110px ;
-     height: 65px ;
-     margin: 94px 0px 0px 10px ;
+     font-size: 15px;
+     margin: 25px 0px 0px 155px;
+     padding: 5px;
+}
+.ware1 .h1button .bun2{
+     width: 125px;
+     height: 42px;
+     background-color: #fff;
+     color: #000;
+     border: none;
+     font-size: 15px;
+     margin: 25px 0px 0px 15px;
+     padding: 5px;
 }
 
-/*socson*/
+/*ware2*/
 
-.ware{
-     background-size: cover;
-     height: 716px;
-}
-.bainertext h1{
-     color: #fff;
-     margin-top: 151px;
-     font-size: 57px;
-     margin-left: 41px;
-}
-.bainertext p{
-     color: #fff;
-     margin-top: 15px;
-     font-size: 27px;
-     margin-left: 41px;
-}
-.bainertext .bun2{
-    width: 300px;
-    height: 60px;
-    margin-left: 104px;
-    background-color: #8c9e00;
-    color: #fff;
-    border-radius: 30px;
-    border: none;
-    margin-top: 99px;
-    font-size: 33px ;
-}
-
-/*socson2*/
 
 .ware2{
-     height: 800px;
-     background-color: #efbd63;
-     background-size: cover;
-}
-.ware2 .alingcenter{
-     color: #000;
-     font-size: 27px;
-     text-align: center;
-     margin-top: 48px;
-}
-
- .ware2 .container .row img{
-    width: 100%;
-    height: 280px;
-    margin-top: 25px;
-}
-.imagestext h2{
-     text-align: left;
-     color: #000;
-     margin-top: 13px;
-     font-size: 29px;
-
-}
-.imagestext p{
-     text-align: left;
-     color: #000;
-     margin-top: 20px;
-     font-size: 22px;
-}
-.bun3{
-    width: 344px;
-    height: 60px;
-    margin-left: 430px;
-    background-color: #910115;
-    color: #fff;
-    border-radius: 30px;
-    border: none;
-    margin-top: 40px;
-    font-size: 42px ;
-}
-
-/*socson3*/
-
-.ware3{
-     background-size: cover;
-     height: 406px;
-}
-.ware3 .col-12{
-     text-align: center;
-}
-.sedut h1{
-     color:#fff;
-     font-size: 46px ;
-     margin-top: 101px ;
-}
-.sedut p{
-     color:#fff;
-     font-size: 30px;
-     margin-top: 33px;
-}
-
-/*socson4*/
-
-.ware4{
-     background-color: #920317;
-     background-size: cover;
-     height: 510px;
-}
-.loremimg img{
      width: 100%;
-     height: 282px;
-     margin-top: 86px;
+     height: 350px;
+     background-size: cover
 }
-.loremtext h1{
-     text-align: center;
-     color: #fff;
-     font-size: 30px;
-     margin-top: 18px;
-}
-#imgcenter h1{
-     font-size: 27px;
-}
-
-/*socson5*/
-
-.ware5{
-     background-color: #efbd63;
+.ware2 .images img{
+     width: 100%;
+     height: auto;
      background-size: cover;
-     height: 750px;
 }
-
-.sedtutu h1{
-     color: #910115;
-     font-size: 42px;
-     margin-top:225px;
-     
-}
-.sedtutu p{
+.ware2 .h2pbun h2{
      color: #000;
-     font-size: 29px;
-     margin-top: 25px;
+     font-size: 35px;
+     border-bottom: 10px solid #ed1c24 ;
+     border-radius: 9px;
+     margin: 45px 175px 0px 0px;
 }
-
-.button4 {
-     text-align: center;
-}
-.button4 .bun4 {
-    width: 241px;
-    height: 65px;
-    margin-left: 4px;
-    background-color: #910115;
-    color: #fff;
-    border-radius: 30px;
-    border: none;
-    margin-top: 17px;
-    font-size: 40px ;
-}
-
-.sedtutuimg img{
-     width: 100%;
-     height: 600px;
-     margin-top: 75px;
-}
-
-/*socson6*/
-
-.ware6{
-     height: 800px;
-     background-color: #910115;
-     background-size: cover;
-}
-
-.textcenter h1{
-     color: #fff;
-     font-size: 50px;
-     text-align: center;
-     margin-left: -78px;
-     margin-top: 35px;
-}
-.text1 p{
-     color: #fff;
-     font-size: 24px;
-     margin-top: 60px;
-}
-.text2 p{
-     color: #fff;
-     font-size: 24px;
-     margin-top: 197px;
-}
-.text3 p{
-     color: #fff;
-     font-size: 24px;
-     margin-top: 60px;
-}
-.text4 p{
-     color: #fff;
-     font-size: 24px;
-     margin-top: 197px;
-}
-.imgcenter{
-     width: 100%;
-     margin-top: 70px;
-}
-.span {
-     text-align: center;
-}
-.span samp{
-     background-color: #fff;
-     width: 12px ;
-     height: 25px ;
-     border-radius: 22px;
-     border: none;
+.ware2 .h2pbun p{
+     color: #000;
+     font-size: 14px;
      margin-top: 30px;
 }
-
-
-/*socson7*/
-
-.ware7{
-     background-size: cover;
-     height: 400px;
-     margin-top: -9px;
-     
-}
-
-.textcenter h1{
-     font-size: 46px ;
-     margin-left: -18px;
-     margin-top: 50px;
+.ware2 .h2pbun .bun3{
+     width: 160px;
+     height: 45px;
+     background-color:#05254d;
      color: #fff;
+     border: none;
+     font-size: 15px;
+     margin: 25px 0px 0px 15px;
+     padding: 5px;
 }
 
-.input {
-     float: right;
+/*ware3*/
+
+.ware3{
+     width: 100%;
+     height: 350px;
+     background-size: cover
 }
-.input1{
-     float: left;
- }
-.col-6{
+.ware3 .images img{
+     width: 100%;
+     height: auto;
+     background-size: cover;
+     margin-top: 40px;
+}
+.ware3 .h2pbun h2{
+     color: #000;
+     font-size: 28px;
+     margin: 85px 0px 0px 30px;
+}
+.ware3 .h2pbun p{
+     color: #000;
+     font-size: 13px;
+     margin: 13px 0px 0px 30px;
+}
+.ware3 .h2pbun .bun4{
+     width: 180px;
+     height: 45px;
+     background-color:#05254d;
+     color: #fff;
+     border: none;
+     font-size: 15px;
+     margin: 25px 0px 0px 35px;
+     padding: 5px;
+}
+
+/*ware4*/
+
+.ware4{
+     width: 100%;
+     height: 435px;
+     background-size: cover
+}
+.ware4 .col-3{
      margin-top: 70px;
 }
- 
-.ware7 input{
-   width: 366px;
-   height: 32px;
-   margin-bottom: 17px;
-   font-weight: 600;
-   font-size: 18px;
-   border: none;
-   padding: 15px;
+.ware4 .imgh4pbun-set{
+     text-align: center;
 }
-.bun5{
-     width: 212px;
-     height: 32px;
-     background-color: #910115;
-     border: none;
+.ware4 .imgh4pbun-set img{
+     margin-top: 18px;
+}
+.ware4 .imgh4pbun-set h4{
+     color: #000;
+     font-size: 17px;
+     margin-top: 13px;
+}
+.ware4 .imgh4pbun-set p{
+     color: #000;
+     font-size: 14px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.ware4 .imgh4pbun-set .imgh4p-1{
+     background-color: #fff;
+     border-radius: 15px;
+}
+.ware4 .imgh4pbun-set .imgh4p-2{
+     background-color: #fff;
+     border-radius: 15px;
+}
+.ware4 .imgh4pbun-set .imgh4p-3{
+     background-color: #fff;
+     border-radius: 15px;
+}
+.ware4 .imgh4pbun-set .bun5{
+     width: 160px;
+     height: 45px;
+     background-color:#05254d;
      color: #fff;
-     border-radius: 16px;
-     margin: 0px 0px 0px 73px ;
-     font-size: 19px;
+     border: none;
+     font-size: 15px;
+     margin-top: 20px;
+     padding: 5px;
+}
+.ware4 .imgh4pbun-set .bun6{
+     width: 160px;
+     height: 45px;
+     background-color:#ed1c24;
+     color: #fff;
+     border: none;
+     font-size: 15px;
+     margin-top: 20px;
+     padding: 5px;
+}
+.ware4 .imgh4pbun-set .bun7{
+     width: 160px;
+     height: 45px;
+     background-color:#05254d;
+     color: #fff;
+     border: none;
+     font-size: 15px;
+     margin-top: 20px;
+     padding: 5px;
+}
+/*ware5*/
+
+.ware5{
+     width: 100%;
+     height: 700px;
+     background-color: #f7e7e7;
+     background-size: cover
+}
+.ware5 .h2pairagraf h2{
+     color: #000;
+     font-size: 38px;
+     margin-top: 45px;
+     text-align: center;
+}
+.ware5 .h2pairagraf p{
+     color: #000;
+     font-size: 18px;
+     margin-top: 15px;
+     text-align: center;
+}
+.ware5 .imgbunh3p-set{
+     text-align: center;
+}
+.ware5 .imgbunh3p-set-1{
+     background-color: #fff;
+}
+.ware5 .imgbunh3p-set-2{
+     background-color: #fff;
+}
+.ware5 .imgbunh3p-set-3{
+     background-color: #fff;
+}
+.ware5 .imgbunh3p-set .imagesbun {
+     width: 100%;
+     height: 199px;
+     background-size: cover;
+     margin-top: 40px;
+}
+.ware5 .imgbunh3p-set h3{
+     color: #000;
+     font-size: 25px;
+     margin-top: 15px;
+}
+.ware5 .imgbunh3p-set p{
+     color: #000;
+     font-size: 13px;
+     padding: 15px 0px 65px 0px;
+}
+.ware5 .imgbunh3p-set .bun8{
+     width: 125px;
+     height: 35px;
+     background-color:#ed1c24;
+     color: #fff;
+     border: none;
+     font-size: 15px;
+     margin-top: 85px;
+     padding: 5px;
+}
+.ware5 .images img{
+     float: inline-end;
+     margin: -35px 150px 0px 0px;
 }
 
-/*socson8*/
 
-.ware8{
-     background-size: cover;
-     height: 385px;
-     
+/*ware6*/
+
+.ware6{
+     width: 100%;
+     height: 620px;
+     background-color: #f7e7e7;
+     background-size: cover
+}
+.ware6 .col-12 h1{
+     color: #000;
+     font-size: 35px;
+     text-align: center;
+     margin-top: 38px;
+}
+.ware6 .imgh5psamp img{
+     border-radius: 48px;
+     margin: -70px 0px 0px 185px;
+     float: inline-start;
+}
+.ware6 .imgh5psamp {
+     text-align: center;
+     background-color: #fff;
+     margin-top: 105px;
+}
+.ware6 .imgh5psamp h5{
+     color: #1b1b1b;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 25px;
+     padding-top: 65px;
+}
+.ware6 .imgh5psamp p{
+     color: #1b1b1b;
+     font-size: 17px;
+     margin-top: 15px;
+}
+.ware6 .imgh5psamp samp{
+     color: #1b1b1b;
+     font-size: 90px;
+}
+
+/*ware7*/
+
+.ware7{
+     width: 100%;
+     height: 235px;
+     background-size: cover
+}
+.ware7 .inputbun{
+     text-align: center;
+}
+.ware7 .inputbun input{
+     width: 710px;
+     height: 55px;
+     background: none;
+     font-size: 14px;
+     margin-top: 70px;
+     padding-left: 20px;
+     border-radius: 27px;
+     border-color: #f7e7e781;
+}
+.ware7 .inputbun .bun9{
+     width: 260px;
+     height: 50px;
+     background-color:#0a264a;
+     color: #fff;
+     border: none;
+     font-size: 15px;
+     margin-top: 25px;
+     padding: 5px;
+     border-radius: 25px;
 }
 
 /*footer*/
 
 footer{
-     background-color: #0e0a17;
-     background-size: cover;
-     height: 440px;
+     background-color: #000;
 }
-.loremlaft ul{
-     margin-top: 80px;
- }
- .loremlaft li{
-     text-align: center;
-     padding: 5px;
- }
- .loremlaft a{
-      font-size: 27px;
-      color: #fff;
- }
-.alingcenter{
-     text-align: center;
-     margin-top: 160px;
+footer .col-2{
+     margin-top: 65px;
 }
-.alingcenter input{
-     width: 350px ;
-     height: 33px;
-     font-size: 19px;
-     padding: 8px;
-     border: none;
+footer .col-3{
+     margin-top: 65px;
 }
-.footerbun{
-     height: 33px;
-     width: 80px;
-     font-size: 20px;
-     background-color: #910115;
-     border: none;
+footer .h3ancrteg h3{
      color: #fff;
+     font-size: 20px;
 }
-.loremright ul{
-     margin-top: 120px;
- }
- .loremright li{
+footer .h3ancrteg ul{
+     margin-top: 20px;
+}
+footer .h3ancrteg ul li{
+     padding: 5px 5px 5px 5px;
+}
+footer .h3ancrteg ul li a{
+     color: #fff;
+     font-size: 14px;
+}
+footer .h3peiragraf h3{
+     color: #fff;
+     font-size: 20px;
+}
+footer  .peiragraf p{
+     color: #fff;
+     font-size: 14px;
+     margin-top: 28px;
+}
+footer .h3iconpeiragraf h3{
+     color: #fff;
+     font-size: 20px;
+}
+footer .iconpeiragraf-1{
+     margin-top: 28px;
+}
+footer .iconpeiragraf-2{
+     margin-top: 10px;
+}
+footer .iconpeiragraf-3{
+     margin-top: 10px;
+}
+footer .h3iconpeiragraf p{
+     color: #fff;
+     font-size: 13px;
+}
+footer .h3images h3{
+     color: #fff;
+     font-size: 20px;
+}
+footer .h3images img{
+     width: 100%;
+     height: auto;
+     margin-top: 25px;
+}
+footer .hrpairagraf hr{
      text-align: center;
-     padding: 5px;
- }
- .loremright a{
-      font-size: 27px;
-      color: #fff;
- }
-.col-12text p{
-    color: #fff;
-    text-align: center;
-    font-size: 19px;
-    margin-top: 49px;
+     width: 60%;
+     margin: 20px 0px 0px 225px;
 }
-
+footer .hrpairagraf p{
+     color: #fff;
+     font-size: 16px;
+     text-align: center;
+     margin: 20px 0px 25px 0px;
+}
