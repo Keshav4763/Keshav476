@@ -807,13 +807,13 @@ header .bun10{
      font-size: 12px;
  }
  .ware5 .images img{
-     margin: right 90px;
+     margin-left: 90px;
  }
 
 /*ware6*/
 
 .ware6{
-     height: 1380px;
+     height: 1320px;
 }
 .ware6 .col-a-12 h1{
      margin-top: 15px;
