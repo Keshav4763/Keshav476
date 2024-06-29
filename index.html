@@ -11,21 +11,26 @@
 <body>
     <!--header-->
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-1">
+        <div class="container-full">
+            <div class="row">                
+                <div class="col-1 col-p-2 col-a-2 col-b-2">
                     <div class="icon">
                         <ul>
                             <li>
                                 <a href="#">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <i class="fa-solid fa-magnifying-glass" id="icon-1"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                    <div class="col-10">
-                        <nav>
+                    <div class="col-10 col-p-8 col-a-8 col-b-8">
+                            <div class="button9">
+                                <button class="bun10" type="button" onclick="hiden()">
+                                    <b>Click</b>
+                                </button>
+                            </div>
+                        <nav id="navbar">
                             <ul>
                                  <li>
                                       <a href="#">HOME</a>
@@ -36,14 +41,14 @@
                                  <li>
                                       <a href="#">TAKE ACTION</a>
                                  </li>
-                                 <div class="col-2">
                                     <li>
-                                        <a href="#"><b>CORONA</b><br>
+                                        <a href="#"><b>CORONA</b>
+                                            <br>
                                             <div class="images">
-                                                <img src="photo/corona.webp" alt="#"></a>
-                                            </div>
+                                                <img src="photo/corona.webp" alt="photo">
+                                            </div> 
+                                        </a>
                                    </li>
-                                 </div>
                                  <li>
                                       <a href="#">NEWS</a>
                                  </li>
@@ -56,12 +61,12 @@
                             </ul>
                         </nav>
                   </div>
-                  <div class="col-1">
+                  <div class="col-1 col-p-2 col-a-2 col-b-2">
                     <div class="icon">
                         <ul>
                             <li>
                                 <a href="#">
-                                    <i class="fa-solid fa-user"></i>
+                                    <i class="fa-solid fa-user" id="icon-2"></i>
                                 </a>
                             </li>
                         </ul>
@@ -76,7 +81,7 @@
 <div class="ware1" role="bainer" style="background-image: url(photo/bainer-1.webp);">
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 col-a-8">
                 <div class="h1button">
                     <div class="heding">
                         <h1>Care early <br> Coronavirus</h1>
@@ -97,8 +102,8 @@
 <div class="ware2">
     <div class="container">
         <div class="row">
-            <div class="col-1"></div>
-                <div class="col-6">
+            <div class="col-1.5"></div>
+                <div class="col-5 col-a-12">
                     <div class="h2pbun">
                         <div class="heding">
                             <h2><b>About Corona Virus</b></h2>
@@ -111,12 +116,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4 col-a-12">
                     <div class="images">
                         <img src="photo/corona02 copy.jpg" alt="photo">
                     </div>
                 </div>
-            <div class="col-1"></div>
+            <div class="col-1.5"></div>
         </div>
     </div>
 </div>
@@ -127,12 +132,12 @@
     <div class="container">
         <div class="row">
             <div class="col-2"></div>
-            <div class="col-4">
+            <div class="col-4 col-p-5 col-a-12">
                 <div class="images">
                     <img src="photo/fever.webp" alt="photo">
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 col-p-5 col-a-12">
                 <div class="h2pbun">
                     <div class="heding">
                         <h2><b>CORONAVIRUS <br> WHAT IT IS !</b></h2>
@@ -150,67 +155,86 @@
     </div>
 </div>
 
+<!--extraline-->
+
+<div class="ware8">
+    <div class="container">
+        <div class="h1andp">
+            <h1>HOW TO PROTECT YOURSELF</h1>
+            <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+        </div>
+    </div>
+</div>
+
+<!--extraline-->
+
 <!--ware4-->
 
-<div class="ware4" style="background-image: url(photo/Cases2.webp);">
+<div class="ware4" style="background-image: url(photo/copy.webp);">
     <div class="container">
         <div class="row">
-            <div class="col-1.5"></div>
-            <div class="col-3">
-                <div class="imgh4pbun-set">
-                    <div class="imgh4p-1">
-                        <div class="images">
-                            <img src="photo/mask.webp" alt="photo">
+            <!--<div class="col-1 5"></div>-->
+                <div class="col-3 col-p-6 col-a-6" id="aling-center-left">
+                    <div class="imgh4pbun-set">
+                        <div class="imgh4p-1">
+                            <div class="images">
+                                <img src="photo/mask.webp" alt="photo">
+                            </div>
+                            <div class="heding">
+                                <h4>Wear Mask</h4>
+                            </div>
+                            <div class="pairagraf">
+                                <p>Many desktop publishing packages <br> and web page editors now use <br> Lorem Ipsum as their default model <br> text, and a search for</p>
+                            </div>
                         </div>
-                        <div class="heding">
-                            <h4>Wear Mask</h4>
+                        <div class="button4">
+                            <button class="bun5">READ MORE</button>
                         </div>
-                        <div class="pairagraf">
-                            <p>Many desktop publishing packages <br> and web page editors now use <br> Lorem Ipsum as their default model <br> text, and a search for</p>
-                        </div>
-                    </div>
-                    <div class="button4">
-                        <button class="bun5">READ MORE</button>
                     </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="imgh4pbun-set">
-                    <div class="imgh4p-2">
-                        <div class="images">
-                            <img src="photo/hands.webp" alt="photo">
+                <div class="col-3 col-p-6 col-a-6" id="aling-center-right">
+                    <div class="imgh4pbun-set">
+                        <div class="imgh4p-2">
+                            <div class="images">
+                                <img src="photo/hands.webp" alt="photo">
+                            </div>
+                            <div class="heding">
+                                <h4>Wase Your Hands</h4>
+                            </div>
+                            <div class="pairagraf">
+                                <p>Many desktop publishing packages <br> and web page editors now use <br> Lorem Ipsum as their default model <br> text, and a search for</p>
+                            </div>
                         </div>
-                        <div class="heding">
-                            <h4>Wase Your Hands</h4>
+                        <div class="button5">
+                            <button class="bun6">READ MORE</button>
                         </div>
-                        <div class="pairagraf">
-                            <p>Many desktop publishing packages <br> and web page editors now use <br> Lorem Ipsum as their default model <br> text, and a search for</p>
-                        </div>
-                    </div>
-                    <div class="button5">
-                        <button class="bun6">READ MORE</button>
                     </div>
                 </div>
-            </div>
-            <div class="col-3">
-                <div class="imgh4pbun-set">
-                    <div class="imgh4p-3">
-                        <div class="images">
-                            <img src="photo/home.webp" alt="photo">
+                <div class="col-3 col-p-6 col-a-6" id="margin">
+                    <div class="imgh4pbun-set">
+                        <div class="imgh4p-3">
+                            <div class="images">
+                                <img src="photo/home.webp" alt="photo">
+                            </div>
+                            <div class="heding">
+                                <h4>Stay at Home</h4>
+                            </div>
+                            <div class="pairagraf">
+                                <p>Many desktop publishing packages <br> and web page editors now use <br> Lorem Ipsum as their default model <br> text, and a search for</p>
+                            </div>
                         </div>
-                        <div class="heding">
-                            <h4>Stay at Home</h4>
+                        <div class="button6">
+                            <button class="bun7">READ MORE</button>
                         </div>
-                        <div class="pairagraf">
-                            <p>Many desktop publishing packages <br> and web page editors now use <br> Lorem Ipsum as their default model <br> text, and a search for</p>
-                        </div>
-                    </div>
-                    <div class="button6">
-                        <button class="bun7">READ MORE</button>
                     </div>
                 </div>
-            </div>
-            <div class="col-1.5"></div>
+           <!-- <div class="col-1 5"></div>-->
+                 <div class="col-12">
+                    <div class="button-two">
+                            <button class="bun11">icon</button>
+                            <button class="bun12">icon</button>
+                    </div>
+                 </div>
         </div>
     </div>
 </div>
@@ -220,7 +244,7 @@
 <div class="ware5">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-a-12">
                 <div class="h2pairagraf">
                     <div class="heding">
                         <h2>CORONATIRUS CASES</h2>
@@ -230,7 +254,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 col-p-6 col-a-12" id="images-1">
                 <div class="imgbunh3p-set">
                     <div class="imgbunh3p-set-1">
                         <div class="imagesbun" style="background-image: url(photo/Cases1.webp);">
@@ -250,7 +274,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 col-p-6 col-a-12" id="images-2">
                 <div class="imgbunh3p-set">
                     <div class="imgbunh3p-set-2">
                         <div class="imagesbun" style="background-image: url(photo/Cases2.webp);">
@@ -270,7 +294,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 col-p-6 col-a-12" id="images-3">
                 <div class="imgbunh3p-set">
                     <div class="imgbunh3p-set-3">
                         <div class="imagesbun" style="background-image: url(photo/Cases3.webp);">
@@ -299,13 +323,13 @@
 <div class="ware6">
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-a-12">
                 <div class="heding-1">
                     <h1>WHAT DOCTORS SAY..</h1>
                 </div>
             </div>
             <div class="col-1"></div>
-            <div class="col-5">
+            <div class="col-5 col-p-12 col-a-12">
                 <div class="imgh5psamp">
                     <div class="imgh5psamp-1">
                         <div class="images">
@@ -323,7 +347,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-5 col-p-12 col-a-12">
                 <div class="imgh5psamp">
                     <div class="imgh5psamp-1">
                         <div class="images">
@@ -342,7 +366,7 @@
                 </div>
             </div>
             <div class="col-1"></div>
-            <div class="col-12">
+            <div class="col-12 col-a-12">
                 <div class="heding-2">
                     <h1>GET EVERY UPDATE....</h1>
                 </div>
@@ -375,8 +399,8 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-1"></div>
-            <div class="col-2">
+            <!--<div class="col-1"></div>-->
+            <div class="col-3 col-p-6 col-a-6">
                 <div class="h3ancrteg">
                     <div class="h3">
                         <h3>RESOURCES</h3>
@@ -402,7 +426,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-3 col-p-6 col-a-6">
                 <div class="h3peiragraf">
                     <h3>ABOUT</h3>
                 </div>
@@ -410,32 +434,38 @@
                     <p>Many desktop publishing packages <br> and web  page editors now use Lorem <br> Ipsum as their   default model text, and <br> a search for 'lorem ipsum' will uncover <br> many web sites still in their   infancy. <br> Various</p>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-3 col-p-6 col-a-6   ">
                 <div class="h3iconpeiragraf">
                     <div class="h3">
                         <h3>CONTACT US</h3>
                     </div>
                     <div class="iconpeiragraf-1">
-                        <div class="icon"></div>
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
                         <div class="pairagraf">
                             <p>Making thas the first true</p>
                         </div>
                     </div>
                     <div class="iconpeiragraf-2">
-                        <div class="icon"></div>
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
                         <div class="pairagraf">
                             <p>Call:+01 1234567890</p>
                         </div>
                     </div>
                     <div class="iconpeiragraf-3">
-                        <div class="icon"></div>
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
                         <div class="pairagraf">
                             <p>Email:demo@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-3 col-p-6 col-a-6">
                 <div class="h3images">
                     <div class="h3">
                         <h3>COUNTRYS</h3>
@@ -445,7 +475,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-1"></div>
+           <!-- <div class="col-1"></div>-->
             <div class="col-12">
                 <div class="hrpairagraf">
                     <hr>
@@ -455,6 +485,8 @@
         </div>
     </div>
 </footer>
-
 </body>
+<script src="js/code.js">
+
+</script>
 </html>
