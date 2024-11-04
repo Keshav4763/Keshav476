@@ -17,6 +17,7 @@ body{
 .images>h1{
     text-align: center;
     margin-bottom: 10px;
+    color: #f0d5d5;
 }
 .calculater{
     background: #3a4452;
@@ -25,7 +26,7 @@ body{
     border-radius: 3px;
 }
 #disinput:hover{
-    background-color: #4ac8faa9;
+    background-color: #e31cf5a9;
 
 }
 .calculater form input{
@@ -36,13 +37,13 @@ body{
     border-radius: 10px;
     box-shadow: 6px -3px 15px rgba(245, 246, 247, 0.226),5px 5px 15px rgba(0, 0, 0, 0.2);
     background-color: #3a4452;
-    font: 20px;
+    font: 30px;
     color: #fff;
     cursor: pointer;
     margin: 10px;
 }
 .calculater form input:hover{
-    background-color: rgba(241, 69, 16, 0.568);
+    background-color:#eb1cd96e;
 }
 
 form .display{
@@ -51,7 +52,7 @@ form .display{
     margin: 5px 0;
     
 }
-form .display input{
+form .display #disinput{
     text-align: right;
     flex: 1rem;
     padding-right: 10px;
@@ -66,4 +67,27 @@ form input.equal{
 }
 form input.operator{
     color: #33ffd8;
+}
+.images>h1>hr{
+    width: 80%;
+    margin-left: 32px;
+    height: 7px;
+    border-radius: 53%;
+    background: linear-gradient(to right,red,pink,grey,green);
+
+}
+.images>h1>hr:hover{
+    width: 50%;
+}
+
+@media(max-width: 425px){
+     
+.calculater form input{
+    margin: -10px;
+}
+form .display #disinput{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
 }
