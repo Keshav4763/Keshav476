@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #25a1c4;
+    background: linear-gradient(to left,#3f3c3c,rgb(98, 157, 3),#500274);
 }
 .container{
     width: 100%;
@@ -22,28 +22,24 @@ body{
 .calculater{
     background: #3a4452;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 3px;
-}
-#disinput:hover{
-    background-color: #e31cf5a9;
-
 }
 .calculater form input{
     border: 0;
     outline: 0;
-    width: 60px;
+    width: 50px;
     height: 60px;
     border-radius: 10px;
     box-shadow: 6px -3px 15px rgba(245, 246, 247, 0.226),5px 5px 15px rgba(0, 0, 0, 0.2);
     background-color: #3a4452;
-    font: 30px;
+    font-size: 30px;
     color: #fff;
     cursor: pointer;
-    margin: 10px;
+    margin-bottom: 5px;
 }
 .calculater form input:hover{
-    background-color:#eb1cd96e;
+    background: linear-gradient( #33ffd8,rgb(27, 12, 112),#33ffd8);
 }
 
 form .display{
@@ -62,14 +58,14 @@ form .display #disinput{
     background-color: rgb(27, 12, 112);
 }
 form input.equal{
-    width: 145px;
+    width: 100px;
     background-color: rgba(27, 12, 112);
 }
 form input.operator{
     color: #33ffd8;
 }
 .images>h1>hr{
-    width: 80%;
+    width: 50%;
     margin-left: 32px;
     height: 7px;
     border-radius: 53%;
@@ -77,14 +73,13 @@ form input.operator{
 
 }
 .images>h1>hr:hover{
-    width: 50%;
+    width: 80%;
+    height: 12px;
+    transition: all 1s;
 }
 
 @media(max-width: 425px){
-     
-.calculater form input{
-    margin: -10px;
-}
+
 form .display #disinput{
     margin-bottom: 20px;
     margin-top: 10px;
